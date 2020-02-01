@@ -1,0 +1,7 @@
+4
+Mud-Slap,18,18
+Bite,14,14
+Quake,20,20
+RockShot,17,17
+
+

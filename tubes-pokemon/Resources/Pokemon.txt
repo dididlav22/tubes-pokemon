@@ -1,0 +1,13 @@
+12
+Blank,Blank,Blank,0,0
+Squirtle,Water,Fire,45,50
+Charmander,Fire,Flying,40,65
+Pidgey,Flying,Electric,40,50
+Pikachu,Electric,Rock,40,60
+Spearow,Flying,Electric,50,65
+Magikarp,Water,Fire,30,50
+Rhyhorn,Rock,Water,40,40
+Voltorb,electric,Rock,40,50
+Machop,Rock,Water,50,45
+Ninetails,Fire,Flying,40,50
+Magmar,Fire,Flying,45,50

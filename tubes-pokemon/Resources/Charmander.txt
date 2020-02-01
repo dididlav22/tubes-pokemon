@@ -1,0 +1,7 @@
+4
+Ember,15,15
+Claw,10,10
+Burn,20,20
+DragonTail,16,16
+
+

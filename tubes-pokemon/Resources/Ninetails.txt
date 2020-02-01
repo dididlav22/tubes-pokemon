@@ -1,0 +1,7 @@
+4
+Pyre,17,17
+DragonBreath,18,18
+Tackle,14,14
+Normal,10,10
+
+

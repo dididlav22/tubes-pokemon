@@ -1,0 +1,7 @@
+4
+Super Bolt,20,20
+ThunderStrike,20,20
+Tackle,10,10
+Normal,10,10
+
+

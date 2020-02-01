@@ -1,0 +1,14 @@
+Weekness:
+Water->fire->flying->electric->rock
+
+Alur:
+Pilih pokemon pas awal
+  uang awal =
+Menu :
+  - Battle
+  - Go to PokeCenter
+    - Heal (set all pokemon's health to 100)
+    - Leave
+  - Go to Shop
+    - Buy potion
+    - Leave

@@ -1,0 +1,59 @@
+[1mdiff --git a/Engine.class b/Engine.class[m
+[1mindex 15662eb..79df982 100644[m
+Binary files a/Engine.class and b/Engine.class differ
+[1mdiff --git a/Engine.java b/Engine.java[m
+[1mindex dd8a8df..675daaf 100644[m
+[1m--- a/Engine.java[m
+[1m+++ b/Engine.java[m
+[36m@@ -338,24 +338,24 @@[m [mclass Engine extends Tools{[m
+                     // Remove enemy Pokemon[m
+                     enemy.defeatPokemon(enemyPokemon);[m
+ [m
+[31m-                    // If the user has Pokemon that have not fainted[m
+[31m-                    if (enemy.myPokemon.size() > 0) {[m
+[31m-                        isWinning = false;[m
+[31m-                    }[m
+[31m-[m
+[31m-                    if (!isWinning) {[m
+[31m-[m
+[31m-                        // Choose new Pokemon[m
+[31m-                        delayedCharPrint("Oh no! All enemy Pokemon have fainted!choose pokemon enemy", 30);[m
+[31m-                        enemyPokemon = enemy.myPokemon.get(game.randomInt(0, enemy.myPokemon.size()-1));[m
+[31m-                        moveOn = true;[m
+[31m-                        starter = "enemy"; // Player starts[m
+[31m-                        // continue;[m
+[31m-                        // isWinning = game.battleSequence(game.allEnemyLevel1.get(2), starter, game);[m
+[31m-                    } else {[m
+[31m-                        delayedCharPrint("Oh no! All enemy Pokemon have fainted!", 30);[m
+[31m-                        // return false; // [m
+[31m-                    }[m
+[32m+[m[32m                    // // If the user has Pokemon that have not fainted[m
+[32m+[m[32m                    // if (enemy.myPokemon.size() > 0) {[m
+[32m+[m[32m                    //     isWinning = false;[m
+[32m+[m[32m                    // }[m
+[32m+[m
+[32m+[m[32m                    // if (!isWinning) {[m
+[32m+[m
+[32m+[m[32m                    //     // Choose new Pokemon[m
+[32m+[m[32m                    //     delayedCharPrint("Oh no! All enemy Pokemon have fainted!choose pokemon enemy", 30);[m
+[32m+[m[32m                    //     enemyPokemon = enemy.myPokemon.get(game.randomInt(0, enemy.myPokemon.size()-1));[m
+[32m+[m[32m                    //     moveOn = true;[m
+[32m+[m[32m                    //     starter = "enemy"; // Player starts[m
+[32m+[m[32m                    //     // continue;[m
+[32m+[m[32m                    //     // isWinning = game.battleSequence(game.allEnemyLevel1.get(2), starter, game);[m
+[32m+[m[32m                    // } else {[m
+[32m+[m[32m                    //     delayedCharPrint("Oh no! All enemy Pokemon have fainted!", 30);[m
+[32m+[m[32m                    //     // return false; //[m[41m [m
+[32m+[m[32m                    // }[m
+ [m
+                     // isWinning = true;[m
+                     break;[m
+[36m@@ -375,7 +375,7 @@[m [mclass Engine extends Tools{[m
+                 // // Try to attack enemy[m
+                 if (playerPokemon.canAfford(curAttack)) {[m
+                     curAttack.attack(enemyPokemon, playerPokemon);[m
+[31m-                    // moveOn = true;[m
+[32m+[m[32m                    moveOn = true;[m
+                     // break;[m
+                 } else {[m
+                     delayedCharPrint(String.format("\nEnemy cannot affort that attack!\nIt costs %s!", curAttack.cost), 30);[m

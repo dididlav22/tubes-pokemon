@@ -1,0 +1,7 @@
+4
+Ember,15,20
+Burn,20,20
+DragonBreath,18,18
+Claw,12,12
+
+

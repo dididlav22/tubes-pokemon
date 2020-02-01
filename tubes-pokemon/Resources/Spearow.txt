@@ -1,0 +1,7 @@
+4
+WindBlade,17,17
+Claw,15,10
+Twister,20,20
+Tackle,10,10
+
+

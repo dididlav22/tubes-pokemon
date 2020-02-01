@@ -1,0 +1,8 @@
+4
+Slam,15,20
+WaterGun,18,18
+Claw,12,12
+Waterfall,20,20
+
+
+

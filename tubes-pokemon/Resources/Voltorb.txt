@@ -1,0 +1,7 @@
+4
+ThunderStrike,20,20
+Super Bolt,20,20
+Lightning,18,18
+Normal,10,10
+
+
