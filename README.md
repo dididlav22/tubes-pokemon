@@ -1,2 +1,2 @@
 # tubes-pokemon
-Tugas Besar text-based game mata kuliah PBO
+Tugas Besar text-based game mata kuliah PBO with Teddy
